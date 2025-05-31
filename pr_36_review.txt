@@ -1,0 +1,37 @@
+Review of Pull Request #36: "Wijmo FlexGrid"
+Author: joel-patrick-parks
+Branch: joel-patrick-parks:wijmo -> krzysztofspilka:master
+
+1. Merge Conflict Status:
+   - The PR is mergeable and has a 'clean' mergeable_state.
+   - No merge conflicts with the `master` branch.
+
+2. List of Changed Files (10 new files):
+   - Markdown file (1):
+     - source/projects/wijmo-flexgrid.md (new)
+   - Image files (9 PNGs - all new):
+     - source/images/libraries/wijmo-flexgrid/cell-merging.PNG
+     - source/images/libraries/wijmo-flexgrid/cell-templates.PNG
+     - source/images/libraries/wijmo-flexgrid/filtering.PNG
+     - source/images/libraries/wijmo-flexgrid/grouping.PNG
+     - source/images/libraries/wijmo-flexgrid/master-detail.PNG
+     - source/images/libraries/wijmo-flexgrid/pinning.PNG
+     - source/images/libraries/wijmo-flexgrid/pivot-table.PNG
+     - source/images/libraries/wijmo-flexgrid/row-selection.PNG
+     - source/images/libraries/wijmo-flexgrid/treegrid.PNG
+
+3. Summary of Changes:
+   This PR adds a new project page for "Wijmo FlexGrid," a commercial datagrid component from GrapeCity. The page provides:
+   - Frontmatter metadata: Title, links to the Wijmo homepage, demos, author (GrapeCity), license (Commercial), and a brief description.
+   - Introduction: Describes FlexGrid as a framework-agnostic, Excel-like datagrid.
+   - Features: A comprehensive list of features including sorting, filtering, paging, pinning, grouping, pivot tables, etc.
+   - Preview: A section with 9 screenshots illustrating various capabilities of the FlexGrid.
+
+4. Potential Issues (Brief Review):
+   - **Critical - Incorrect Image Path**: In `source/projects/wijmo-flexgrid.md`, the image for "Wijmo FlexGrid with Cell Merging" incorrectly points to `.../pinning.png` instead of `.../cell-merging.PNG`. This will result in the wrong image being displayed for this feature.
+   - **Generic `repo` Field**: The `repo` field in the frontmatter is set to "wijmo". This is not a direct link to a specific GitHub repository (e.g., owner/repo_name). If Wijmo FlexGrid has a publicly accessible source repository, the link should be more specific. If not, this field might be inappropriate or need adjustment.
+   - **Image Filename Case Sensitivity**: The actual image files have uppercase `.PNG` extensions (e.g., `cell-merging.PNG`), while the markdown links (where correct) use lowercase `.png` (e.g., `cell-templates.png`). While this might work on some systems, it's best practice for the linked filenames to exactly match the actual filenames (including case) to prevent issues on case-sensitive file systems or web servers.
+   - **No Newline at End of File**: The new markdown file `source/projects/wijmo-flexgrid.md` is missing a final newline character.
+   - **Image Optimization**: As 9 new images are added, ensuring they are optimized for web use (size, compression) is a general best practice.
+
+The most pressing issues are the incorrect image link for cell merging and the vague `repo` field. The filename case sensitivity should also be addressed.

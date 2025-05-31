@@ -1,0 +1,180 @@
+[
+  {
+    "sha": "b71ccc319acc1404f77fa13ffba47d32275b8ac0",
+    "filename": "source/images/libraries/angular-slickgrid/composite-editor.png",
+    "status": "added",
+    "additions": 0,
+    "deletions": 0,
+    "changes": 0,
+    "blob_url": "https://github.com/krzysztofspilka/JSpreadsheets/blob/9d8af9dc7c8f36bdc6695cd157eab046987d3e9a/source%2Fimages%2Flibraries%2Fangular-slickgrid%2Fcomposite-editor.png",
+    "raw_url": "https://github.com/krzysztofspilka/JSpreadsheets/raw/9d8af9dc7c8f36bdc6695cd157eab046987d3e9a/source%2Fimages%2Flibraries%2Fangular-slickgrid%2Fcomposite-editor.png",
+    "contents_url": "https://api.github.com/repos/krzysztofspilka/JSpreadsheets/contents/source%2Fimages%2Flibraries%2Fangular-slickgrid%2Fcomposite-editor.png?ref=9d8af9dc7c8f36bdc6695cd157eab046987d3e9a"
+  },
+  {
+    "sha": "2bef3275346ac262fbdb3bddeb7fb836375f3b60",
+    "filename": "source/images/libraries/angular-slickgrid/editors.png",
+    "status": "modified",
+    "additions": 0,
+    "deletions": 0,
+    "changes": 0,
+    "blob_url": "https://github.com/krzysztofspilka/JSpreadsheets/blob/9d8af9dc7c8f36bdc6695cd157eab046987d3e9a/source%2Fimages%2Flibraries%2Fangular-slickgrid%2Feditors.png",
+    "raw_url": "https://github.com/krzysztofspilka/JSpreadsheets/raw/9d8af9dc7c8f36bdc6695cd157eab046987d3e9a/source%2Fimages%2Flibraries%2Fangular-slickgrid%2Feditors.png",
+    "contents_url": "https://api.github.com/repos/krzysztofspilka/JSpreadsheets/contents/source%2Fimages%2Flibraries%2Fangular-slickgrid%2Feditors.png?ref=9d8af9dc7c8f36bdc6695cd157eab046987d3e9a"
+  },
+  {
+    "sha": "b64db0458010f4c4840ac1796b5a826e829177e2",
+    "filename": "source/images/libraries/angular-slickgrid/filter_and_sort.png",
+    "status": "modified",
+    "additions": 0,
+    "deletions": 0,
+    "changes": 0,
+    "blob_url": "https://github.com/krzysztofspilka/JSpreadsheets/blob/9d8af9dc7c8f36bdc6695cd157eab046987d3e9a/source%2Fimages%2Flibraries%2Fangular-slickgrid%2Ffilter_and_sort.png",
+    "raw_url": "https://github.com/krzysztofspilka/JSpreadsheets/raw/9d8af9dc7c8f36bdc6695cd157eab046987d3e9a/source%2Fimages%2Flibraries%2Fangular-slickgrid%2Ffilter_and_sort.png",
+    "contents_url": "https://api.github.com/repos/krzysztofspilka/JSpreadsheets/contents/source%2Fimages%2Flibraries%2Fangular-slickgrid%2Ffilter_and_sort.png?ref=9d8af9dc7c8f36bdc6695cd157eab046987d3e9a"
+  },
+  {
+    "sha": "272a223877b829bf0a980b069ed66317321e7616",
+    "filename": "source/images/libraries/angular-slickgrid/formatters.png",
+    "status": "modified",
+    "additions": 0,
+    "deletions": 0,
+    "changes": 0,
+    "blob_url": "https://github.com/krzysztofspilka/JSpreadsheets/blob/9d8af9dc7c8f36bdc6695cd157eab046987d3e9a/source%2Fimages%2Flibraries%2Fangular-slickgrid%2Fformatters.png",
+    "raw_url": "https://github.com/krzysztofspilka/JSpreadsheets/raw/9d8af9dc7c8f36bdc6695cd157eab046987d3e9a/source%2Fimages%2Flibraries%2Fangular-slickgrid%2Fformatters.png",
+    "contents_url": "https://api.github.com/repos/krzysztofspilka/JSpreadsheets/contents/source%2Fimages%2Flibraries%2Fangular-slickgrid%2Fformatters.png?ref=9d8af9dc7c8f36bdc6695cd157eab046987d3e9a"
+  },
+  {
+    "sha": "7f6d7580974af934e11f8f39462ae928e8e64d79",
+    "filename": "source/images/libraries/angular-slickgrid/tree-data.png",
+    "status": "added",
+    "additions": 0,
+    "deletions": 0,
+    "changes": 0,
+    "blob_url": "https://github.com/krzysztofspilka/JSpreadsheets/blob/9d8af9dc7c8f36bdc6695cd157eab046987d3e9a/source%2Fimages%2Flibraries%2Fangular-slickgrid%2Ftree-data.png",
+    "raw_url": "https://github.com/krzysztofspilka/JSpreadsheets/raw/9d8af9dc7c8f36bdc6695cd157eab046987d3e9a/source%2Fimages%2Flibraries%2Fangular-slickgrid%2Ftree-data.png",
+    "contents_url": "https://api.github.com/repos/krzysztofspilka/JSpreadsheets/contents/source%2Fimages%2Flibraries%2Fangular-slickgrid%2Ftree-data.png?ref=9d8af9dc7c8f36bdc6695cd157eab046987d3e9a"
+  },
+  {
+    "sha": "b1c654c25f9f1a3e024ac0f08429e112c7ce8c3c",
+    "filename": "source/images/libraries/slickgrid/column-span.png",
+    "status": "modified",
+    "additions": 0,
+    "deletions": 0,
+    "changes": 0,
+    "blob_url": "https://github.com/krzysztofspilka/JSpreadsheets/blob/9d8af9dc7c8f36bdc6695cd157eab046987d3e9a/source%2Fimages%2Flibraries%2Fslickgrid%2Fcolumn-span.png",
+    "raw_url": "https://github.com/krzysztofspilka/JSpreadsheets/raw/9d8af9dc7c8f36bdc6695cd157eab046987d3e9a/source%2Fimages%2Flibraries%2Fslickgrid%2Fcolumn-span.png",
+    "contents_url": "https://api.github.com/repos/krzysztofspilka/JSpreadsheets/contents/source%2Fimages%2Flibraries%2Fslickgrid%2Fcolumn-span.png?ref=9d8af9dc7c8f36bdc6695cd157eab046987d3e9a"
+  },
+  {
+    "sha": "ea7b81e8ab5282baa8297ca8c28483e542ecb93e",
+    "filename": "source/images/libraries/slickgrid/context-menu.png",
+    "status": "added",
+    "additions": 0,
+    "deletions": 0,
+    "changes": 0,
+    "blob_url": "https://github.com/krzysztofspilka/JSpreadsheets/blob/9d8af9dc7c8f36bdc6695cd157eab046987d3e9a/source%2Fimages%2Flibraries%2Fslickgrid%2Fcontext-menu.png",
+    "raw_url": "https://github.com/krzysztofspilka/JSpreadsheets/raw/9d8af9dc7c8f36bdc6695cd157eab046987d3e9a/source%2Fimages%2Flibraries%2Fslickgrid%2Fcontext-menu.png",
+    "contents_url": "https://api.github.com/repos/krzysztofspilka/JSpreadsheets/contents/source%2Fimages%2Flibraries%2Fslickgrid%2Fcontext-menu.png?ref=9d8af9dc7c8f36bdc6695cd157eab046987d3e9a"
+  },
+  {
+    "sha": "1ab750470411c703403175a58ccf2ff69ffd5e1b",
+    "filename": "source/images/libraries/slickgrid/custom-rendering.png",
+    "status": "modified",
+    "additions": 0,
+    "deletions": 0,
+    "changes": 0,
+    "blob_url": "https://github.com/krzysztofspilka/JSpreadsheets/blob/9d8af9dc7c8f36bdc6695cd157eab046987d3e9a/source%2Fimages%2Flibraries%2Fslickgrid%2Fcustom-rendering.png",
+    "raw_url": "https://github.com/krzysztofspilka/JSpreadsheets/raw/9d8af9dc7c8f36bdc6695cd157eab046987d3e9a/source%2Fimages%2Flibraries%2Fslickgrid%2Fcustom-rendering.png",
+    "contents_url": "https://api.github.com/repos/krzysztofspilka/JSpreadsheets/contents/source%2Fimages%2Flibraries%2Fslickgrid%2Fcustom-rendering.png?ref=9d8af9dc7c8f36bdc6695cd157eab046987d3e9a"
+  },
+  {
+    "sha": "a447cf3355db51a15ce23f9f2db1562aad102745",
+    "filename": "source/images/libraries/slickgrid/extended-editor.png",
+    "status": "modified",
+    "additions": 0,
+    "deletions": 0,
+    "changes": 0,
+    "blob_url": "https://github.com/krzysztofspilka/JSpreadsheets/blob/9d8af9dc7c8f36bdc6695cd157eab046987d3e9a/source%2Fimages%2Flibraries%2Fslickgrid%2Fextended-editor.png",
+    "raw_url": "https://github.com/krzysztofspilka/JSpreadsheets/raw/9d8af9dc7c8f36bdc6695cd157eab046987d3e9a/source%2Fimages%2Flibraries%2Fslickgrid%2Fextended-editor.png",
+    "contents_url": "https://api.github.com/repos/krzysztofspilka/JSpreadsheets/contents/source%2Fimages%2Flibraries%2Fslickgrid%2Fextended-editor.png?ref=9d8af9dc7c8f36bdc6695cd157eab046987d3e9a"
+  },
+  {
+    "sha": "efd2d829df95cdae9d54b1051b69433a0207ff80",
+    "filename": "source/images/libraries/slickgrid/grouping-aggregation.png",
+    "status": "modified",
+    "additions": 0,
+    "deletions": 0,
+    "changes": 0,
+    "blob_url": "https://github.com/krzysztofspilka/JSpreadsheets/blob/9d8af9dc7c8f36bdc6695cd157eab046987d3e9a/source%2Fimages%2Flibraries%2Fslickgrid%2Fgrouping-aggregation.png",
+    "raw_url": "https://github.com/krzysztofspilka/JSpreadsheets/raw/9d8af9dc7c8f36bdc6695cd157eab046987d3e9a/source%2Fimages%2Flibraries%2Fslickgrid%2Fgrouping-aggregation.png",
+    "contents_url": "https://api.github.com/repos/krzysztofspilka/JSpreadsheets/contents/source%2Fimages%2Flibraries%2Fslickgrid%2Fgrouping-aggregation.png?ref=9d8af9dc7c8f36bdc6695cd157eab046987d3e9a"
+  },
+  {
+    "sha": "aa1274785092af1928a98e4e09f9f9613b60721f",
+    "filename": "source/images/libraries/slickgrid/multi-column-sorting.png",
+    "status": "modified",
+    "additions": 0,
+    "deletions": 0,
+    "changes": 0,
+    "blob_url": "https://github.com/krzysztofspilka/JSpreadsheets/blob/9d8af9dc7c8f36bdc6695cd157eab046987d3e9a/source%2Fimages%2Flibraries%2Fslickgrid%2Fmulti-column-sorting.png",
+    "raw_url": "https://github.com/krzysztofspilka/JSpreadsheets/raw/9d8af9dc7c8f36bdc6695cd157eab046987d3e9a/source%2Fimages%2Flibraries%2Fslickgrid%2Fmulti-column-sorting.png",
+    "contents_url": "https://api.github.com/repos/krzysztofspilka/JSpreadsheets/contents/source%2Fimages%2Flibraries%2Fslickgrid%2Fmulti-column-sorting.png?ref=9d8af9dc7c8f36bdc6695cd157eab046987d3e9a"
+  },
+  {
+    "sha": "f2c611483ab6d8d5f7d20e331dcf1088cf8f04cb",
+    "filename": "source/images/libraries/slickgrid/row-detail.png",
+    "status": "added",
+    "additions": 0,
+    "deletions": 0,
+    "changes": 0,
+    "blob_url": "https://github.com/krzysztofspilka/JSpreadsheets/blob/9d8af9dc7c8f36bdc6695cd157eab046987d3e9a/source%2Fimages%2Flibraries%2Fslickgrid%2Frow-detail.png",
+    "raw_url": "https://github.com/krzysztofspilka/JSpreadsheets/raw/9d8af9dc7c8f36bdc6695cd157eab046987d3e9a/source%2Fimages%2Flibraries%2Fslickgrid%2Frow-detail.png",
+    "contents_url": "https://api.github.com/repos/krzysztofspilka/JSpreadsheets/contents/source%2Fimages%2Flibraries%2Fslickgrid%2Frow-detail.png?ref=9d8af9dc7c8f36bdc6695cd157eab046987d3e9a"
+  },
+  {
+    "sha": "cfb6ba529189e4e1aaf20d4333c6dbdd3d31179c",
+    "filename": "source/images/libraries/slickgrid/row-selection-with-checkbox.png",
+    "status": "modified",
+    "additions": 0,
+    "deletions": 0,
+    "changes": 0,
+    "blob_url": "https://github.com/krzysztofspilka/JSpreadsheets/blob/9d8af9dc7c8f36bdc6695cd157eab046987d3e9a/source%2Fimages%2Flibraries%2Fslickgrid%2Frow-selection-with-checkbox.png",
+    "raw_url": "https://github.com/krzysztofspilka/JSpreadsheets/raw/9d8af9dc7c8f36bdc6695cd157eab046987d3e9a/source%2Fimages%2Flibraries%2Fslickgrid%2Frow-selection-with-checkbox.png",
+    "contents_url": "https://api.github.com/repos/krzysztofspilka/JSpreadsheets/contents/source%2Fimages%2Flibraries%2Fslickgrid%2Frow-selection-with-checkbox.png?ref=9d8af9dc7c8f36bdc6695cd157eab046987d3e9a"
+  },
+  {
+    "sha": "cec9f9dc601c0df67815502f17eb1eb61f75773f",
+    "filename": "source/images/libraries/slickgrid/tree-grid.png",
+    "status": "modified",
+    "additions": 0,
+    "deletions": 0,
+    "changes": 0,
+    "blob_url": "https://github.com/krzysztofspilka/JSpreadsheets/blob/9d8af9dc7c8f36bdc6695cd157eab046987d3e9a/source%2Fimages%2Flibraries%2Fslickgrid%2Ftree-grid.png",
+    "raw_url": "https://github.com/krzysztofspilka/JSpreadsheets/raw/9d8af9dc7c8f36bdc6695cd157eab046987d3e9a/source%2Fimages%2Flibraries%2Fslickgrid%2Ftree-grid.png",
+    "contents_url": "https://api.github.com/repos/krzysztofspilka/JSpreadsheets/contents/source%2Fimages%2Flibraries%2Fslickgrid%2Ftree-grid.png?ref=9d8af9dc7c8f36bdc6695cd157eab046987d3e9a"
+  },
+  {
+    "sha": "ffb008418e57e04a9c611105661c416863d94b85",
+    "filename": "source/projects/angular-slickgrid.md",
+    "status": "modified",
+    "additions": 10,
+    "deletions": 0,
+    "changes": 10,
+    "blob_url": "https://github.com/krzysztofspilka/JSpreadsheets/blob/9d8af9dc7c8f36bdc6695cd157eab046987d3e9a/source%2Fprojects%2Fangular-slickgrid.md",
+    "raw_url": "https://github.com/krzysztofspilka/JSpreadsheets/raw/9d8af9dc7c8f36bdc6695cd157eab046987d3e9a/source%2Fprojects%2Fangular-slickgrid.md",
+    "contents_url": "https://api.github.com/repos/krzysztofspilka/JSpreadsheets/contents/source%2Fprojects%2Fangular-slickgrid.md?ref=9d8af9dc7c8f36bdc6695cd157eab046987d3e9a",
+    "patch": "@@ -50,6 +50,10 @@ Take a look at the multiple [demos](https://ghiscoding.github.io/Angular-Slickgr\n * Custom Column Filters with Angular Component\n * Custom Cell Editors with Angular Component\n * Custom AsyncPostRender with Angular Component\n+* Composite Editor Modal\n+* Custom Tooltips\n+* Context Menu / Cell Menu\n+* Tree Data (parent/child or hierarchical dataset)\n \n #### Preview:\n \n@@ -77,3 +81,9 @@ Screenshots from the demo app with the `Bootstrap` theme (that is the only avail\n ###### Comes with OData & GraphQL support (you can implement custom too)\n \n ![Slickgrid Server Side](/images/libraries/angular-slickgrid/pagination.png)\n+\n+##### Composite Editor\n+![Slickgrid composite editor](/images/libraries/angular-slickgrid/composite-editor.png \"Slickgrid composite editor\")\n+\n+##### Tree Data (parent/child or hierarchical dataset)\n+![Slickgrid tree data](/images/libraries/angular-slickgrid/tree-data.png \"Slickgrid tree data\")"
+  },
+  {
+    "sha": "59ca92e50fa4760dec24166c22f2061083baccfe",
+    "filename": "source/projects/slickgrid.md",
+    "status": "modified",
+    "additions": 13,
+    "deletions": 5,
+    "changes": 18,
+    "blob_url": "https://github.com/krzysztofspilka/JSpreadsheets/blob/9d8af9dc7c8f36bdc6695cd157eab046987d3e9a/source%2Fprojects%2Fslickgrid.md",
+    "raw_url": "https://github.com/krzysztofspilka/JSpreadsheets/raw/9d8af9dc7c8f36bdc6695cd157eab046987d3e9a/source%2Fprojects%2Fslickgrid.md",
+    "contents_url": "https://api.github.com/repos/krzysztofspilka/JSpreadsheets/contents/source%2Fprojects%2Fslickgrid.md?ref=9d8af9dc7c8f36bdc6695cd157eab046987d3e9a",
+    "patch": "@@ -6,13 +6,14 @@ examples: http://6pac.github.io/SlickGrid/examples/example4-model.html\n license: MIT\n author: Michael Leibman/Ben McIntyre\n authorurl: http://slickgrid.net/History.html\n-description: SlickGrid is a fully open-source, JavaScript, client-side grid control, based on jQuery and jQueryUI and compatible with Bootstrap.\n+description: SlickGrid is a fully open-source, native JavaScript, client-side grid control, and compatible with any UI frameworks like Bootstrap.\n ---\n \n-SlickGrid is a fully open-source, JavaScript, client-side grid control, \n-based on jQuery and jQueryUI and compatible with Bootstrap.\n-The grid is designed to take an external component as a datasource, \n-and that means SlickGrid should be compatible with a wide range of \n+SlickGrid is a fully open-source, native JavaScript, client-side grid control, \n+using native browser code (originally, but no longer, based on jQuery and jQueryUI) \n+and compatible with any UI libraries like Bootstrap.\n+The grid is designed to take an external component as a datasource,\n+and that means SlickGrid should be compatible with a wide range of\n modern data-centric frameworks.\n \n #### Features Overview\n@@ -31,6 +32,9 @@ modern data-centric frameworks.\n * Advanced detached & multi-field editors with undo/redo support.\n * \"GlobalEditorLock\" to manage concurrent edits in cases where multiple Views on a page can edit the same data.\n * Support for millions of rows\n+* Composite Editor Modal\n+* Custom Tooltips\n+* Context Menu / Cell Menu\n \n #### Preview\n \n@@ -48,3 +52,7 @@ modern data-centric frameworks.\n ![Slickgrid row selection with checkbox](/images/libraries/slickgrid/row-selection-with-checkbox.png \"Slickgrid row selection with checkbox\")\n ##### Tree grid\n ![Slickgrid tree grid](/images/libraries/slickgrid/tree-grid.png \"Slickgrid tree grid\")\n+##### Row detail\n+![Slickgrid row detail](/images/libraries/slickgrid/row-detail.png \"Slickgrid row detail\")\n+##### Context Menu / Cell Menu\n+![Slickgrid context cell menus](/images/libraries/slickgrid/context-menu.png \"Slickgrid context cell menus\")"
+  }
+]

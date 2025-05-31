@@ -1,0 +1,113 @@
+diff --git a/source/images/libraries/angular-slickgrid/composite-editor.png b/source/images/libraries/angular-slickgrid/composite-editor.png
+new file mode 100644
+index 000000000..b71ccc319
+Binary files /dev/null and b/source/images/libraries/angular-slickgrid/composite-editor.png differ
+diff --git a/source/images/libraries/angular-slickgrid/editors.png b/source/images/libraries/angular-slickgrid/editors.png
+index 84ed4f002..2bef32753 100644
+Binary files a/source/images/libraries/angular-slickgrid/editors.png and b/source/images/libraries/angular-slickgrid/editors.png differ
+diff --git a/source/images/libraries/angular-slickgrid/filter_and_sort.png b/source/images/libraries/angular-slickgrid/filter_and_sort.png
+index 19085a73a..b64db0458 100644
+Binary files a/source/images/libraries/angular-slickgrid/filter_and_sort.png and b/source/images/libraries/angular-slickgrid/filter_and_sort.png differ
+diff --git a/source/images/libraries/angular-slickgrid/formatters.png b/source/images/libraries/angular-slickgrid/formatters.png
+index 9ece4537b..272a22387 100644
+Binary files a/source/images/libraries/angular-slickgrid/formatters.png and b/source/images/libraries/angular-slickgrid/formatters.png differ
+diff --git a/source/images/libraries/angular-slickgrid/tree-data.png b/source/images/libraries/angular-slickgrid/tree-data.png
+new file mode 100644
+index 000000000..7f6d75809
+Binary files /dev/null and b/source/images/libraries/angular-slickgrid/tree-data.png differ
+diff --git a/source/images/libraries/slickgrid/column-span.png b/source/images/libraries/slickgrid/column-span.png
+index cffc503fe..b1c654c25 100755
+Binary files a/source/images/libraries/slickgrid/column-span.png and b/source/images/libraries/slickgrid/column-span.png differ
+diff --git a/source/images/libraries/slickgrid/context-menu.png b/source/images/libraries/slickgrid/context-menu.png
+new file mode 100644
+index 000000000..ea7b81e8a
+Binary files /dev/null and b/source/images/libraries/slickgrid/context-menu.png differ
+diff --git a/source/images/libraries/slickgrid/custom-rendering.png b/source/images/libraries/slickgrid/custom-rendering.png
+index 6686bb037..1ab750470 100755
+Binary files a/source/images/libraries/slickgrid/custom-rendering.png and b/source/images/libraries/slickgrid/custom-rendering.png differ
+diff --git a/source/images/libraries/slickgrid/extended-editor.png b/source/images/libraries/slickgrid/extended-editor.png
+index f521b59d7..a447cf335 100755
+Binary files a/source/images/libraries/slickgrid/extended-editor.png and b/source/images/libraries/slickgrid/extended-editor.png differ
+diff --git a/source/images/libraries/slickgrid/grouping-aggregation.png b/source/images/libraries/slickgrid/grouping-aggregation.png
+index e33b24a67..efd2d829d 100755
+Binary files a/source/images/libraries/slickgrid/grouping-aggregation.png and b/source/images/libraries/slickgrid/grouping-aggregation.png differ
+diff --git a/source/images/libraries/slickgrid/multi-column-sorting.png b/source/images/libraries/slickgrid/multi-column-sorting.png
+index 96df4ff70..aa1274785 100755
+Binary files a/source/images/libraries/slickgrid/multi-column-sorting.png and b/source/images/libraries/slickgrid/multi-column-sorting.png differ
+diff --git a/source/images/libraries/slickgrid/row-detail.png b/source/images/libraries/slickgrid/row-detail.png
+new file mode 100644
+index 000000000..f2c611483
+Binary files /dev/null and b/source/images/libraries/slickgrid/row-detail.png differ
+diff --git a/source/images/libraries/slickgrid/row-selection-with-checkbox.png b/source/images/libraries/slickgrid/row-selection-with-checkbox.png
+index e054503fe..cfb6ba529 100755
+Binary files a/source/images/libraries/slickgrid/row-selection-with-checkbox.png and b/source/images/libraries/slickgrid/row-selection-with-checkbox.png differ
+diff --git a/source/images/libraries/slickgrid/tree-grid.png b/source/images/libraries/slickgrid/tree-grid.png
+index f3f9e8cab..cec9f9dc6 100755
+Binary files a/source/images/libraries/slickgrid/tree-grid.png and b/source/images/libraries/slickgrid/tree-grid.png differ
+diff --git a/source/projects/angular-slickgrid.md b/source/projects/angular-slickgrid.md
+index 8d90c1fde..ffb008418 100644
+--- a/source/projects/angular-slickgrid.md
++++ b/source/projects/angular-slickgrid.md
+@@ -50,6 +50,10 @@ Take a look at the multiple [demos](https://ghiscoding.github.io/Angular-Slickgr
+ * Custom Column Filters with Angular Component
+ * Custom Cell Editors with Angular Component
+ * Custom AsyncPostRender with Angular Component
++* Composite Editor Modal
++* Custom Tooltips
++* Context Menu / Cell Menu
++* Tree Data (parent/child or hierarchical dataset)
+
+ #### Preview:
+
+@@ -77,3 +81,9 @@ Screenshots from the demo app with the `Bootstrap` theme (that is the only avail
+ ###### Comes with OData & GraphQL support (you can implement custom too)
+
+ ![Slickgrid Server Side](/images/libraries/angular-slickgrid/pagination.png)
++
++##### Composite Editor
++![Slickgrid composite editor](/images/libraries/angular-slickgrid/composite-editor.png "Slickgrid composite editor")
++
++##### Tree Data (parent/child or hierarchical dataset)
++![Slickgrid tree data](/images/libraries/angular-slickgrid/tree-data.png "Slickgrid tree data")
+diff --git a/source/projects/slickgrid.md b/source/projects/slickgrid.md
+index f1635f9fa..59ca92e50 100644
+--- a/source/projects/slickgrid.md
++++ b/source/projects/slickgrid.md
+@@ -6,13 +6,14 @@ examples: http://6pac.github.io/SlickGrid/examples/example4-model.html
+ license: MIT
+ author: Michael Leibman/Ben McIntyre
+ authorurl: http://slickgrid.net/History.html
+-description: SlickGrid is a fully open-source, JavaScript, client-side grid control, based on jQuery and jQueryUI and compatible with Bootstrap.
++description: SlickGrid is a fully open-source, native JavaScript, client-side grid control, and compatible with any UI frameworks like Bootstrap.
+ ---
+
+-SlickGrid is a fully open-source, JavaScript, client-side grid control,
+-based on jQuery and jQueryUI and compatible with Bootstrap.
+-The grid is designed to take an external component as a datasource,
+-and that means SlickGrid should be compatible with a wide range of
++SlickGrid is a fully open-source, native JavaScript, client-side grid control,
++using native browser code (originally, but no longer, based on jQuery and jQueryUI)
++and compatible with any UI libraries like Bootstrap.
++The grid is designed to take an external component as a datasource,
++and that means SlickGrid should be compatible with a wide range of
+ modern data-centric frameworks.
+
+ #### Features Overview
+@@ -31,6 +32,9 @@ modern data-centric frameworks.
+ * Advanced detached & multi-field editors with undo/redo support.
+ * "GlobalEditorLock" to manage concurrent edits in cases where multiple Views on a page can edit the same data.
+ * Support for millions of rows
++* Composite Editor Modal
++* Custom Tooltips
++* Context Menu / Cell Menu
+
+ #### Preview
+
+@@ -48,3 +52,7 @@ modern data-centric frameworks.
+ ![Slickgrid row selection with checkbox](/images/libraries/slickgrid/row-selection-with-checkbox.png "Slickgrid row selection with checkbox")
+ ##### Tree grid
+ ![Slickgrid tree grid](/images/libraries/slickgrid/tree-grid.png "Slickgrid tree grid")
++##### Row detail
++![Slickgrid row detail](/images/libraries/slickgrid/row-detail.png "Slickgrid row detail")
++##### Context Menu / Cell Menu
++![Slickgrid context cell menus](/images/libraries/slickgrid/context-menu.png "Slickgrid context cell menus")

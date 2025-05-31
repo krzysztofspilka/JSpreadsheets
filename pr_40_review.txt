@@ -1,0 +1,31 @@
+Review of Pull Request #40: "Jspreadsheet PRO & LemonadeJS "
+Author: nicolasjesse
+Branch: nicolasjesse:master -> krzysztofspilka:master
+
+1. Merge Conflict Status:
+   - The PR is mergeable and has a 'clean' mergeable_state.
+   - No merge conflicts with the `master` branch.
+
+2. List of Changed Files (2 new files):
+   - source/projects/jspreadsheet-pro.md (new)
+   - source/projects/lemonade-data-grid.md (new)
+
+3. Summary of Changes:
+   This PR adds documentation pages for two data grid components:
+   - **Jspreadsheet (PRO)**: Describes a commercial JavaScript spreadsheet component. The page includes its advantages, links to GitHub (jspreadsheet/pro), its official website (jspreadsheet.com), usage examples, and key features.
+   - **Lemonade Data Grid**: Describes a lightweight, MIT-licensed JavaScript data grid component. The page details its features (search, filter, pagination, in-cell editing), links to GitHub, its homepage (lemonadejs.net), and usage examples.
+
+   Both files follow a similar structure, providing metadata, feature lists, download/usage instructions, and links to further examples.
+
+4. Potential Issues (Brief Review):
+   - **No Newline at End of File**: The new file `source/projects/jspreadsheet-pro.md` is missing a final newline character.
+   - **Lemonade Data Grid GitHub Link Inconsistency**: In `source/projects/lemonade-data-grid.md`, the frontmatter has `repo: lemonadejs/datagrid` and `direct: https://github.com/lemonadejs/data-grid`. The actual GitHub link used in the "Download" section is `https://github.com/lemonadejs/data-grid`. It should be verified if `lemonadejs/datagrid` is a valid or preferred alternative or if all links should consistently point to `lemonadejs/data-grid`.
+   - **Jspreadsheet PRO Naming**: The PR title mentions "Jspreadsheet PRO" and the license is "Commercial". However, the `title` in the `jspreadsheet-pro.md` frontmatter is just "Jspreadsheet". It might be clearer to title it "Jspreadsheet PRO" for consistency and to denote its commercial version.
+   - **Technology Field Accuracy (jQuery)**: Both new files list "Javascript, Jquery, Web Component" in the `technology` field.
+     - Jspreadsheet PRO is described as a "lightweight Vanilla JavaScript plugin," suggesting it might not require jQuery.
+     - LemonadeJS is generally a standalone micro-library.
+     The inclusion of "Jquery" should be verified for accuracy for both components.
+   - **Branching Convention**: The PR is from the `master` branch of the contributor's fork. Using a dedicated feature branch is a common best practice.
+   - **External Links**: As with all documentation, external links should be verified for correctness and availability.
+
+The most actionable issues are clarifying the Lemonade Data Grid GitHub links and the naming/technology details for Jspreadsheet PRO.

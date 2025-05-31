@@ -1,0 +1,6 @@
+2025-05-31 07:52:37 URL:https://www.example.com/ [1256/1256] -> "www.example.com/index.html.tmp.tmp" [1]
+Found no broken links.
+
+FINISHED --2025-05-31 07:52:37--
+Total wall clock time: 0.2s
+Downloaded: 1 files, 1.2K in 0s (34.1 MB/s)

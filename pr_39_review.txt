@@ -1,0 +1,25 @@
+Review of Pull Request #39: "react-gridsheet"
+Author: righ
+Branch: righ:master -> krzysztofspilka:master
+
+1. Merge Conflict Status:
+   - The PR is mergeable and has a 'clean' mergeable_state.
+   - No merge conflicts with the `master` branch.
+
+2. List of Changed Files (1 new file):
+   - source/projects/react-gridsheet.md (new)
+
+3. Summary of Changes:
+   This PR adds a new project page for "react-gridsheet," a React spreadsheet component created by the PR author. The page includes:
+   - Frontmatter metadata: Links to the project's GitHub repository (walkframe/react-gridsheet), homepage, examples, license information (Apache-2.0), author details, and a brief description.
+   - Introduction: A short description of react-gridsheet as a "simple yet highly functional spreadsheet component for ReactJS."
+   - Image: An embedded screenshot of the component.
+   The PR author notes in the PR body that the library currently supports features like formula calculations, with more planned.
+
+4. Potential Issues (Brief Review):
+   - Image Hosting: The embedded image is hotlinked from the `master` branch of the `walkframe/react-gridsheet` GitHub repository. While this works, for long-term link stability, embedding the image directly within the JSpreadsheets repository or using a link to a released asset might be more robust against changes in the source repository.
+   - Description Detail: The description in the markdown file itself is quite concise. While the external links presumably provide more detail, adding a few key features or capabilities to the main description could enhance its usefulness for visitors browsing the JSpreadsheets website.
+   - Branching Convention: The PR was submitted from the `master` branch of the contributor's fork. It is common practice to use a dedicated feature branch for PRs.
+   - License Field Format: The `license` field in the frontmatter is "Apache-2.0 license". Using the SPDX identifier "Apache-2.0" is a common convention. This is a minor formatting point.
+
+Overall, the PR is straightforward and adds a new React-based spreadsheet component to the JSpreadsheets listing. The main considerations are minor, relating to image link permanence and the level of detail in the on-page description.

@@ -1,0 +1,28 @@
+Review of Pull Request #45: "Add grist from Grist Labs"
+Author: mercihabam
+Branch: add-grist -> master
+
+1. Merge Conflict Status:
+   - The PR is mergeable and has a 'clean' mergeable_state.
+   - No merge conflicts with the `master` branch.
+
+2. List of Changed Files:
+   - source/projects/grist.md (New file)
+
+3. Summary of Changes:
+   This PR introduces a new Markdown file, `source/projects/grist.md`, which adds a project page for "Grist" by Grist Labs. The page describes Grist as a modern relational spreadsheet, combining spreadsheet flexibility with database robustness.
+   Key details highlighted in the new file include:
+   - Core concept: Hybrid database/spreadsheet.
+   - Features: Python formulas (including AI assistant for generation), SQLite-based portable format, static site display (`grist-static`), desktop app (`grist-desktop`), choice lists, references, attachments, conditional formatting, drag-and-drop dashboards (charts, card views, calendar), summary tables, widget linking, incremental imports.
+   - Integrations: REST API, Zapier, Google Drive, Excel, custom widgets, webhooks.
+   - Access Control: Granular sharing and permissions, row/column/table level controls (requires SSO setup, e.g., via `grist-omnibus`).
+   - Self-maintainability and sandboxing options (gVisor, macOS native, wasm).
+   - Links to Grist's homepage, blog articles (comparing Grist to spreadsheets and Airtable), GitHub repositories, templates, and a video preview.
+
+4. Potential Issues (Brief Review):
+   - No newline at end of file: The new file `source/projects/grist.md` is missing a newline character at the end. It's a common convention to have one.
+   - External Links: The document is rich in external links. While not checked in this brief review, these links should be verified for correctness and availability.
+   - Video Link: The PR includes a direct link to an .mp4 file for the preview. Depending on the website's Markdown rendering capabilities, this might just appear as a link rather than an embedded video player. Specific embedding syntax might be required if an inline player is desired.
+   - Minor Typo/Grammar: A quick read suggests minor proofreading might be beneficial. For example, "Grist is the evolution of spreadsheets. way, it has the following features:" likely has an extraneous "way,".
+
+Overall, the PR adds a well-detailed project description to the JSpreadsheets collection.

@@ -1,0 +1,28 @@
+Review of Pull Request #44: "add cheetah-grid"
+Author: auks-blue
+Branch: auks-blue:master -> krzysztofspilka:master
+
+1. Merge Conflict Status:
+   - The PR is mergeable and has a 'clean' mergeable_state.
+   - No merge conflicts with the `master` branch.
+
+2. List of Changed Files:
+   - source/projects/cheetah-grid.md (New file)
+
+3. Summary of Changes:
+   This PR introduces a new Markdown file, `source/projects/cheetah-grid.md`, which adds a project page for "Cheetah Grid". Cheetah Grid, developed by Future Corporation (Japan), is presented as an extremely fast, open-source data table component for the web, utilizing HTML5 Canvas.
+   The new page details:
+   - Key features: High performance (claims to handle 1,000,000 records without stress), IME support, multiple input editors.
+   - Download and installation: Instructions for CDN, npm, source download, and building from GitHub.
+   - Usage: Basic HTML/JavaScript example, and mentions wrappers for Vue (`vue-cheetah-grid`) and React (`react-cheetah-grid`).
+   - API: Overview of defining headers, columns (types, actions, styles).
+   - Links: Provides links to the Cheetah Grid homepage, demos, documentation, GitHub repository, and NPM package.
+   - License: MIT.
+
+4. Potential Issues (Brief Review):
+   - Critical Encoding Issues (Mojibake): There are significant text encoding errors in the "Note" section concerning IME support and in the "Multiple Input Editor" section. Text like "IME\\x82\\xf0\\x8eg\\x97p..." and "...\\x82\\xc6..." appears to be incorrectly encoded Japanese text (mojibake). This text is unreadable and needs to be corrected, likely by ensuring the original content is saved as UTF-8.
+   - Branching: The PR is from the `master` branch of the contributor's fork directly to the upstream `master` branch. While acceptable, using a dedicated feature branch is often preferred for clarity and to avoid potential issues if the contributor's master branch diverges significantly.
+   - External Links: The page includes numerous external links. These should be verified to ensure they are active and correct.
+   - Image Display: An image is embedded and also acts as a link. This is generally fine but its presentation should be as intended.
+
+The most pressing issue is the garbled text due to encoding problems, which makes parts of the description unintelligible.

@@ -1,0 +1,27 @@
+Review of Pull Request #37: "Table Engine Project"
+Author: bennyboer (Benjamin Eder)
+Branch: bennyboer:master -> krzysztofspilka:master
+
+1. Merge Conflict Status:
+   - The PR is mergeable and has a 'clean' mergeable_state.
+   - No merge conflicts with the `master` branch.
+
+2. List of Changed Files (1 new file):
+   - source/projects/table-engine.md (new)
+
+3. Summary of Changes:
+   This PR adds a new project page for "Table Engine," a library developed by the PR author, Benjamin Eder. Table Engine is designed for visualizing very large tables in web environments using high-performance HTML5 canvas rendering.
+   The page includes:
+   - Frontmatter metadata: Title, GitHub repository (bennyboer/table-engine), homepage (same as repo), examples link (demo application), MIT license, author details, and a description.
+   - Introduction: Explains the library's purpose and its ability to implement various table forms (spreadsheets, data tables).
+   - Demo: A screenshot and a link to a live demo application.
+   - Features: A comprehensive list covering general table functionalities (zooming, borders), cell-specific features (various renderers/editors, selection, merging, keyboard navigation), and row/column operations (fixing, resizing, etc.). It notes that sorting/filtering are to be user-implemented.
+   - Installation and Usage: Provides an `npm install` command and directs users to the project's GitHub repository for usage examples, particularly an Angular one.
+
+4. Potential Issues (Brief Review):
+   - **NPM Package Name Discrepancy**: The "Install" section instructs users to run `npm install table-library`. However, the project is named "Table Engine," and the repository is `bennyboer/table-engine`. This inconsistency needs clarification to ensure users install the correct package. A quick search for "table-library" on NPM is inconclusive for this specific project.
+   - **Image Hosting**: The demo screenshot is hotlinked from the `main` branch of the project's GitHub repository. For long-term stability, embedding the image in the JSpreadsheets repository or using a link to a more permanent asset (like a release asset) would be preferable.
+   - **Homepage Link**: The `homepage` field in the frontmatter currently points to the GitHub repository. The `examples` link (`https://bennyboer.github.io/table-engine/`) which leads to a live demo, might be a more suitable candidate for the primary `homepage` link if a dedicated project website isn't available.
+   - **Branching Convention**: The PR was submitted from the `master` branch of the contributor's fork. Using a dedicated feature branch is a common best practice.
+
+The most critical point to address is the NPM package name to ensure users can correctly install the library. The other points are minor best-practice suggestions.
