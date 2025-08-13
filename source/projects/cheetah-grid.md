@@ -25,11 +25,14 @@ https://future-architect.github.io/cheetah-grid/documents/introduction/
 
 Support for IME
 
-IMEを使用した入力によるデータ編集が可能です。事前にセルを編集モードにしておく必要もありません。
+You can edit data by inputting using IME, without having to put the cell into edit mode beforehand.
 
 Multiple Input Editor
 
-[SmallDialogInputEditor](https://future-architect.github.io/cheetah-grid/documents/api/js/column_actions/SmallDialogInputEditor.html)と[InlineInputEditor](https://future-architect.github.io/cheetah-grid/documents/api/js/column_actions/InlineInputEditor.html)の2つの入力エディタを利用できます。
+Two input editors are available
+
+[SmallDialogInputEditor](https://future-architect.github.io/cheetah-grid/documents/api/js/column_actions/SmallDialogInputEditor.html)
+[InlineInputEditor](https://future-architect.github.io/cheetah-grid/documents/api/js/column_actions/InlineInputEditor.html)
 
 The fastest open-source data table for web.
 
